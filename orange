@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange Website</title>
+    <link rel="stylesheet" href="AIexample.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Orange Website</h1>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <!-- Add more navigation links here -->
+        </ul>
+    </nav>
+</header>
+<label for="country">select your country</label>
+<select name="country" id="country">
+    <option value="india">india</option>
+    <option value="india">UK</option>
+    <option value="india">US</option>
+    <option value="india">japan</option>
+    <option value="india">bhutan</option>
+    <option value="others">others</option>
+
+    <textarea name="story" id="story" cols="30" rows="10">type here</textarea>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rklidcZ-aLU?si=5yNf_WvKSz11w8vV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</select>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>We are passionate about all orange things!</p>
+        </section>
+        <!-- Add more sections/content here -->
+        <video src="assets/lab.mp4" 
+        controls autoplay loop 
+        muted height="500px" width="500px"/>
+    </main>
+    <pre>
+        this is first line 
+        and here  comes the       space
+        we can wright in any    format    and    we  
+        
+        can save it 
+    </pre>
+    &cent;
+    <big>(a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab</big><br>
+    <big>ch<sub>4</sub>+0<sub>2</sub>= h<sub>2</sub>o+co<sub>2</sub></big>
+    <p id="home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deleniti iure omnis fugiat ab et illo tempore rerum repellendus aliquid nemo eaque, ex debitis veritatis. Aperiam accusantium ad vel voluptatum minus, sed consequuntur quidem dolore veritatis ullam maiores debitis ea alias corrupti eius perspiciatis fugiat quibusdam aliquid? Quis atque officiis modi aspernatur, eaque explicabo blanditiis perferendis illum aperiam illo dolore, veniam libero nam earum voluptates expedita voluptate, deserunt fugit? Eos non id quis et. Repudiandae illum error nihil odit omnis et nisi mollitia quod sunt ipsum voluptas cum numquam, eius excepturi libero vel sequi est, placeat aliquam similique laboriosam dicta!</p>
+    <footer>
+        <p>&copy; 2024 Orange Website</p>
+    </footer>
+</body>
+</html>
